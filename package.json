@@ -1,0 +1,34 @@
+{
+  "name": "wequire",
+  "version": "0.1.0",
+  "description": "synchronously load wasm files",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/continuationlabs/wequire",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continuationlabs/wequire.git"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/wequire/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "belly-button -f",
+    "pretest": "npm run lint",
+    "test": "lab -v -a code -t 100"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "belly-button": "4.x.x",
+    "code": "5.x.x",
+    "lab": "15.x.x"
+  },
+  "keywords": [
+    "wasm",
+    "WebAssembly",
+    "require"
+  ]
+}
